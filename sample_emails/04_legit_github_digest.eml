@@ -1,0 +1,28 @@
+Received: from out-1.mailer.example (out-1.mailer.example [192.0.2.10])
+	by mx.example-mail.net with ESMTPS id 5ee; Mon, 05 Oct 2026 04:00:03 +0000
+Received: from app-7.internal.example (app-7.internal.example [10.20.0.7])
+	by out-1.mailer.example with ESMTP id 5ee; Mon, 05 Oct 2026 04:00:01 +0000
+Authentication-Results: mx.example-mail.net;
+	spf=pass smtp.mailfrom=notifications@github.com;
+	dkim=pass header.d=github.com; dmarc=pass header.from=github.com
+DKIM-Signature: v=1; a=rsa-sha256; d=github.com; s=pf2023; h=from:to:subject; b=ZmFrZQ==
+Return-Path: <notifications@github.com>
+From: GitHub <notifications@github.com>
+To: student@example-mail.net
+Subject: [GitHub] Your weekly digest
+Date: Mon, 05 Oct 2026 04:00:00 +0000
+Message-ID: <digest-8841@github.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="ALT"
+
+--ALT
+Content-Type: text/plain; charset="utf-8"
+
+Here is a summary of activity in your repositories this week.
+View the repository: https://github.com/example-org/portfolio-site
+--ALT
+Content-Type: text/html; charset="utf-8"
+
+<html><body><p>Here is a summary of activity in your repositories this week.</p>
+<p><a href="https://github.com/example-org/portfolio-site">View repository</a></p></body></html>
+--ALT--

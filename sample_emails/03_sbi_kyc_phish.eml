@@ -1,0 +1,19 @@
+Received: from unknown (unknown [198.51.100.23])
+	by mx.example-mail.net with SMTP id 11bb; Mon, 05 Oct 2026 06:40:02 +0000
+Authentication-Results: mx.example-mail.net;
+	spf=softfail smtp.mailfrom=alerts@sbi-kyc-update.xyz; dkim=none; dmarc=none
+Return-Path: <alerts@sbi-kyc-update.xyz>
+From: "SBI Alerts" <alerts@sbi-kyc-update.xyz>
+To: student@example-mail.net
+Subject: Final notice: KYC expired - account will be blocked today
+Date: Mon, 05 Oct 2026 06:39:58 +0000
+Message-ID: <77f@sbi-kyc-update.xyz>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Dear Customer,
+
+Your State Bank of India YONO account KYC has expired. Your account will be blocked today.
+Update your KYC immediately: http://onlinesbi.com.kyc-update.xyz/login
+
+You must share your OTP and PAN card number on the page to re-activate. Last chance!!!

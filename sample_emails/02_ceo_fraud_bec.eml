@@ -1,0 +1,25 @@
+Received: from mail-qt1-f171.mail.example (mail-qt1-f171.mail.example [198.51.100.71])
+	by mx.example-corp.in with ESMTPS id 77aa; Mon, 05 Oct 2026 09:01:12 +0530
+Authentication-Results: mx.example-corp.in;
+	spf=pass smtp.mailfrom=rahul.menon.ceo@gmail.com;
+	dkim=pass header.d=gmail.com; dmarc=pass header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20230601; h=from:to:subject; b=ZmFrZQ==
+Return-Path: <rahul.menon.ceo@gmail.com>
+From: "Rahul Menon - CEO" <rahul.menon.ceo@gmail.com>
+Reply-To: "Rahul Menon" <r.menon.office@proton.me>
+To: accounts@example-corp.in
+Subject: Quick task - urgent
+Date: Mon, 05 Oct 2026 09:01:05 +0530
+Message-ID: <CAB12345@mail.gmail.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hi,
+
+Are you available? I'm in a meeting and can't take calls. I need you to process an
+urgent wire transfer to a new vendor immediately. After that, please buy 5 gift cards
+worth Rs. 10,000 each and send me the codes. Keep this confidential until I'm back.
+
+Reply with the details as soon as possible.
+
+Sent from my iPhone
